@@ -30,6 +30,10 @@ npm run dev
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
+## Admin credentials
+email: admin@gmail.com
+password: 123456789
+
 Soft Skills to be tested:-
 1) The skill pertaining to fine motor and hand-eye coordination are tested as the player manipulate puzzle pieces to put the puzzle together.
 2) Player learns to work through a problem and reach a solution as they fit the pieces together. This tests the ability of problem solving of the player.
