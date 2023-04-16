@@ -77,11 +77,12 @@ class Register extends Component {
                   id="name"
                   type="text"
                   className={classnames("", {
-                    invalid: errors.name
+                    invalid: errors.name || errors.email
                   })}
+                  placeholder="Username must not contain any space"
                 />
                 <label htmlFor="name">Name</label>
-                <span className="red-text">{errors.name}</span>
+                <span className="red-text">{errors.name} {errors.email}</span>
               </div>
               <div className="input-field col s12">
                 <input

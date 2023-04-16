@@ -1,0 +1,7 @@
+.spac {
+
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-items: "center";
+}

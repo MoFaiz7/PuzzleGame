@@ -2,18 +2,24 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 // Create Schema
-const UserSchema = new Schema({
+const LevelSchema = new Schema({
+  level: {
+    type: Number,
+    required: true,
+    unique: true
+  },
   name: {
     type: String,
     required: true
   },
-  email: {
+  difficulty: {
     type: String,
     required: true
   },
-  password: {
+  url: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   date: {
     type: Date,
@@ -21,4 +27,4 @@ const UserSchema = new Schema({
   }
 });
 
-module.exports = User = mongoose.model("users", UserSchema);
+module.exports = Pushlevel = mongoose.model("level", LevelSchema);
